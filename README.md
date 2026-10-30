@@ -13,12 +13,12 @@ As ferramentas usam a API do Revit e devem ser executadas dentro do Revit pelo p
 ## Instalação
 
 1. Instale o Autodesk Revit e o pyRevit.
-2. No PowerShell, clone esta extensão dentro da pasta de extensões do pyRevit. Substitua `<USUARIO>` pelo usuário ou organização do GitHub que contém este repositório:
+2. No PowerShell, clone esta extensão dentro da pasta de extensões do pyRevit:
 
    ```powershell
    $extensions = Join-Path $env:APPDATA 'pyRevit\Extensions'
    New-Item -ItemType Directory -Force -Path $extensions | Out-Null
-   git clone https://github.com/<USUARIO>/alex-bim-kit.git (Join-Path $extensions 'BIM Coder Kit.extension')
+   git clone https://github.com/alexsandrejr/alex-bim-kit.git (Join-Path $extensions 'BIM Coder Kit.extension')
    ```
 
 3. Abra ou reinicie o Revit e atualize/carregue novamente as extensões do pyRevit.
