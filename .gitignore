@@ -1,0 +1,20 @@
+# Local Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and operating system files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# Local credentials and certificates
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12

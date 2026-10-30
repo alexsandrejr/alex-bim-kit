@@ -1,0 +1,7 @@
+title: "Renumber by Spline"
+tooltip: |
+  Renumerar elementos (portas, salas) por spline fornecida. As portas serão numeradas de acordo com sua proximidade
+  ao longo da spline. A numeração começará do início da spline.
+
+  Author: Deyan Nenov
+  Plugin: pyChilizer
